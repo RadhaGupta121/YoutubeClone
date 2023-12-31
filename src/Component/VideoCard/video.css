@@ -1,0 +1,25 @@
+.video-main{
+    width: 24.5rem;
+    height: 15rem;
+    background-color: rgb(184, 182, 186);
+    border-radius: 12px;
+}
+.video-container{
+    margin-top: 2rem;
+    width: 24.5rem;
+    height: 18rem;
+
+}
+.video-container>div>span{
+    padding-left: 12px;
+}
+.channel-name{
+color:rgb(95, 93, 93)
+}
+.video-views{
+color: gray;
+}
+.video-title{
+    color:black;
+    font-weight: 700;
+}

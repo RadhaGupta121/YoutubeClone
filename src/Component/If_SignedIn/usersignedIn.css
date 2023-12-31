@@ -1,0 +1,10 @@
+.list-container>ul{
+list-style: none;
+padding: 12px;
+}
+.list-container>ul>li{
+    margin: 12px;
+}
+.list-container>ul>li:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,24 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.sidebar>ul>li{
+    color:black;
+    font-size: 18px;
+    list-style: none;
+    padding: 1rem 0rem 1rem 1rem;
+}
+.sidebar>ul>span{
+    position: relative;
+    top:0;
+    left:1vw;
+    width: auto;
+  
+}
+.yt-icon{
+    color:red;
+   padding-left: 18px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding:12px;
+}

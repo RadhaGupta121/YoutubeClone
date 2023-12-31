@@ -1,0 +1,65 @@
+.login-container{
+    margin: auto;
+    width: 40vw;
+   display: block;
+   text-align: center;
+  padding: 30px;
+    background-color: gainsboro;
+}
+.login-main{
+    display: flex;
+   justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+.logo-yt{
+    color: red;
+    font-size: 28px;
+    padding: 20px;
+}
+.login-form{
+    margin-top: 20px;
+}
+.form-group>input{
+    padding-left: 12px;
+width: 50%;
+height: 2rem;
+margin: 5px;
+}
+
+.register-btn{
+   color: blue;
+   margin-right: 2rem;
+}
+.register-btn:hover{
+   color: rgb(102, 5, 78);
+    cursor: pointer;
+}
+.login-btn-submit{
+    background-color: rgb(22, 103, 202);
+    border: none;
+    width: 6rem !important;
+    padding:2px;
+    color: white;
+    height: 2rem;
+margin: 5px;
+}
+.login-btn-submit:hover{
+    background-color: rgb(5, 5, 96);
+    cursor: pointer;
+}
+.form-group-file{
+    padding:5px;
+}
+.form-group-file>button{
+    padding: 8px 12px 8px 12px;
+    background-color: rgb(242, 242, 127);
+    color: black;
+    border: none;
+}
+.form-group-file>button:hover{
+    padding: 8px 12px 8px 12px;
+    background-color: rgb(20, 68, 3);
+    color: white;
+    cursor: pointer;
+}

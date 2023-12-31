@@ -1,0 +1,47 @@
+/* src/App.css */
+.app {
+    text-align: center;
+  }
+  
+  .header {
+    background-color: #ff0000; /* YouTube red color */
+    padding: 10px;
+    color: white;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .header input {
+    padding: 5px;
+  }
+  
+  .main-content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #f8f8f8;
+    padding: 10px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .sidebar hr {
+    margin: 15px 0;
+    border: 0.5px solid #d3d3d3;
+  }
+  

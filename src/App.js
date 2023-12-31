@@ -1,24 +1,38 @@
-import logo from './logo.svg';
+// src/App.js
+import React from 'react';
 import './App.css';
+import Login from './Component/Login/Login';
+import Register from './Component/Login/Register';
+import MyNav from './Component/Navbar/MyNav';
+import Searchbar from './Component/Home.js/SearchBar/Searchbar';
+import Home from './Component/Home.js/Home';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import MyChannel from './Component/ViewChannel/MyChannel';
+import Channel from './Component/ViewChannel/Channel';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+     
+          <div style={{display:"flex"}}>
+            <MyNav />
+            <div>
+         
+            <BrowserRouter>
+            <Searchbar />
+           <Routes>
+             
+              <Route path="/" element={<Home />} />
+              <Route path="/login" element={<Login />} />
+              <Route path='/register' element={<Register />} />
+              <Route path='/view-channel' element={<MyChannel />} />
+              </Routes>
+      </BrowserRouter>
+            </div>
+          </div>
+
+       
+    </>
   );
 }
 

@@ -1,0 +1,65 @@
+.search-bar{
+    display: flex;
+     
+}
+.main-search-bar{
+    /* height: 20%; */
+    margin-top: 12px;
+}
+.search-input{
+    width: 50vw;
+    height: 2.5rem;
+    margin-left: 7rem;
+   border-radius: 20px;
+   
+}
+.search-btn{
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 12px;
+    height: 2rem;
+    width:4.5%;
+    margin-left: -4rem;
+    background-color: rgb(228, 219, 219);
+    border-left: 1px solid rgb(147, 144, 144) ;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.search-voice{
+    margin-left: 2rem;
+    border-radius: 20px;
+    background-color: rgb(190, 189, 189);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 15px;
+}
+.search-voice:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.create,.notify,.login-btn{
+   
+    padding: 10px;
+    margin: 0px 1px 0px 1px;
+}
+/* style={{display:"flex",justifyContent:"flex-end",marginLeft:"8rem"}} */
+.other-feature{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 6rem;
+
+}
+.signin-property{
+    margin-left: -6rem;
+}
+
+
+.login-btn>button{
+ color: blue;
+ background-color: gainsboro;
+ padding: 10px;
+ border-radius: 32px;
+}
